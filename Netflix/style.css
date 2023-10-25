@@ -1,0 +1,275 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+.container {
+  max-width: 1100px;
+  padding: 20px 40px;
+  margin: 0 auto;
+}
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.padding-100 {
+  padding: 100px;
+}
+.col-50 {
+  width: 50%;
+}
+header {
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.854) 0, rgb(0 0 0 / 48%) 59%, rgb(0 0 0 / 94%) 100%),
+    url(https://assets.nflxext.com/ffe/siteui/vlv3/f85718e8-fc6d-4954-bca0-f5eaf78e0842/ea44b42b-ba19-4f35-ad27-45090e34a897/IN-en-20230918-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.logo {
+  width: 100px;
+  height: 100px;
+  fill: crimson;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  gap: 30px;
+}
+.banner-section h1 {
+  font-size: 3rem;
+  font-weight: 900;
+  text-align: center;
+  color: #fff;
+}
+.search {
+  display: flex;
+  width: 70%;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+.banner-section p {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+}
+input {
+  width: 70%;
+  background-color: #84848458;
+  border-radius: 5px;
+  border: 1px solid #7a7a7a;
+  padding: 18px;
+  border: none;
+}
+.search button {
+  border: none;
+  background-color: crimson;
+  color: #fff;
+  font-size: 20px;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  line-height: 5px;
+  width: 30%;
+  height: 52px;
+  border-radius: 5px;
+}
+::placeholder {
+  color: #beb9b9;
+  font-size: 18px;
+}
+select {
+  background: transparent;
+  border-radius: 5px;
+  /* border: 3px solid #dfdada; */
+  color: #fff;
+  padding: 10px 20px;
+}
+.buttons {
+  display: flex;
+  gap: 30px;
+}
+.buttons button {
+  border: none;
+  background-color: crimson;
+  color: #fff;
+  font-size: 16px;
+  padding: 17px 10px;
+  border-radius: 5px;
+  line-height: 5px;
+  /* width: 30%; */
+  /* height: 52px; */
+  border-radius: 5px;
+}
+.main-wrapper {
+  background-color: #000000;
+  border-top: 10px solid #4d4d4d;
+}
+.section-title {
+  font-size: 3rem;
+  font-weight: 900;
+
+  color: #fff;
+}
+.text-content {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #fff;
+  margin-top: 40px;
+}
+.tv-img {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+}
+.video-wrapper {
+  position: relative;
+  z-index: 0;
+}
+.video-wrapper video {
+  position: absolute;
+  overflow: hidden;
+  top: -310px;
+  left: 13%;
+
+  z-index: 0;
+}
+/* .video-wrapper {
+  z-index: -1;
+}
+.tv-img {
+  z-index: 111111;
+} */
+.mobile {
+  height: 112px;
+  /* width: 226px; */
+  /* width: 389px; */
+  display: flex;
+  color: white;
+  background-color: #000000;
+  border-radius: 12px;
+  overflow: hidden;
+  justify-content: start;
+  align-items: center;
+  border: 1px groove gray;
+  position: absolute;
+  bottom: 0;
+  left: 18%;
+  z-index: 22;
+}
+.screen {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 16px;
+}
+.mobile-wrapper {
+  position: relative;
+  background-image: url(https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 11;
+}
+img {
+  width: 100%;
+}
+.video-wrapper2 {
+  position: relative;
+  z-index: 0;
+}
+.video-wrapper2 video {
+  position: absolute;
+  overflow: hidden;
+  top: -352px;
+  left: 17%;
+  width: 331px;
+  z-index: 0;
+}
+.relative {
+  position: relative;
+  z-index: 11111;
+}
+.center {
+  text-align: center;
+}
+.accordian-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 20px;
+  background-color: #4d4d4db6;
+  color: #fff;
+  align-items: center;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+}
+.text-content2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #fff;
+  /* margin-top: 40px; */
+}
+.section-title:last-of-type {
+  margin-bottom: 30px;
+}
+.register {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+.register-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-link-text,
+.footer-link-text > a,
+.single-links-container a {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 10px;
+  color: #7a7a7a;
+  text-decoration: underline;
+}
+.links-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  margin-top: 40px;
+}
+.single-links-container {
+  width: 23%;
+}
+.single-links-container li {
+  margin-bottom: 10px;
+}
+.footer-btn {
+  margin-top: 20px;
+}
+.footer-btn p {
+  font-size: 14px;
+  color: #ffff;
+  margin-top: 10px;
+  text-transform: capitalize;
+}

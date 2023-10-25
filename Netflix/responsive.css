@@ -1,0 +1,38 @@
+@media (max-width: 576px) {
+  .logo {
+    width: 80px;
+    height: 85px;
+  }
+  .buttons button {
+    padding: 18px;
+  }
+  .banner-section h1 {
+    font-size: 34px;
+  }
+  .main {
+    margin-top: 30px;
+    padding: 20px;
+  }
+  .banner-section {
+    width: 100%;
+  }
+  .banner-section p {
+    font-size: 20px;
+    display: none;
+  }
+  .search {
+    flex-direction: column;
+  }
+  input {
+    width: 100%;
+  }
+  .search button {
+    width: 100%;
+  }
+  .col-50 {
+    width: 100%;
+  }
+  .row {
+    flex-direction: column;
+  }
+}

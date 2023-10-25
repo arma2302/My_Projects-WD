@@ -1,0 +1,295 @@
+@media (max-width: 992px) {
+  /* .container {
+    max-width: 940px;
+  } */
+
+  nav a {
+    font-size: 20px;
+    padding: 8px;
+  }
+  .col-50 {
+    width: 100%;
+  }
+  .col-30 {
+    width: 48%;
+  }
+  /* .row {
+    flex-direction: column;
+    justify-content: center;
+  } */
+  .w-50 {
+    width: 100%;
+  }
+  .banner-box {
+    margin-top: 48px;
+    text-align: left;
+    padding: 50px;
+  }
+  .title {
+    font-size: 90px;
+  }
+  .paragraph {
+    font-size: 26px;
+    margin: 80px 0;
+  }
+  .sec-text {
+    font-size: 24px;
+  }
+  .card-wrapper {
+    /* flex-wrap: wrap; */
+    gap: 20px;
+  }
+  .card-title {
+    font-size: 25px;
+  }
+  .card {
+    width: 31%;
+    gap: 47px;
+  }
+  .burger-wrapper {
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+  }
+  .burger-body-text,
+  .burger-body-text2 {
+    font-size: 26px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  .order-now-white {
+    margin: 0 auto;
+  }
+  .burger-wrapper-item,
+  .burger-wrapper-item01 {
+    text-align: center;
+  }
+  .burger-wrapper-item {
+    margin: 0 auto;
+  }
+  .burger2 {
+    z-index: -1;
+  }
+  .mashroom2 {
+    z-index: -1;
+  }
+  .burger-section-2 {
+    z-index: 2;
+  }
+  .statistic-wrapper {
+    gap: 42px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .statistic-item {
+    width: 250px;
+    height: 250px;
+  }
+  .statistic-section p:first-of-type {
+    font-size: 23px;
+  }
+
+  .packages-item-wrapper {
+    padding: 20px;
+    flex-wrap: wrap;
+    gap: 27px;
+  }
+
+  .packages-section h1 {
+    padding: 50px 0 100px 0;
+  }
+  .packages-single-item {
+    padding: 38px;
+  }
+
+  .burger3,
+  .leaf3 {
+    z-index: -1;
+  }
+
+  .Barry-Henderson-section p {
+    font-size: 26px;
+    line-height: 43px;
+  }
+  .newsletter-wrapper {
+    padding: 69px;
+  }
+  .newsletter-wrapper h1 {
+    font-size: 58px;
+  }
+  .newsletter-wrapper p {
+    font-size: 20px;
+  }
+  .subscribe {
+    right: 2%;
+  }
+  .z-index1 {
+    z-index: 1;
+  }
+  .z-index0 {
+    z-index: -1;
+  }
+  .onion4 {
+    right: -2%;
+  }
+  .chilly5 {
+    bottom: 1%;
+  }
+
+  .fries4 {
+    left: -5%;
+  }
+  .flex-direction {
+    flex-direction: column;
+  }
+  .col-40,
+  .col-60 {
+    width: 90%;
+    align-self: flex-start;
+  }
+  .info-wrapper {
+    gap: 49px;
+  }
+  .gap-50 {
+    gap: 50px;
+  }
+  .links-container {
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 768px) {
+  .col-50,
+  .col-30 {
+    width: 100%;
+  }
+
+  .container {
+    padding: 50px;
+  }
+  /* .section1 {
+    padding: 40px;
+  } */
+  nav a {
+    font-size: 20px;
+    padding: 8px;
+  }
+  .row {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .w-50 {
+    width: 100%;
+  }
+  .banner-box {
+    margin-top: 48px;
+    text-align: center;
+    padding: 100px;
+  }
+  .title {
+    font-size: 69px;
+  }
+  .paragraph {
+    font-size: 26px;
+    margin: 80px 0;
+  }
+  .sec-text {
+    font-size: 24px;
+  }
+  .card-wrapper {
+    flex-wrap: wrap;
+    row-gap: 100px;
+  }
+  .card {
+    width: 49%;
+  }
+  .burger-wrapper {
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+  }
+  .burger-body-text,
+  .burger-body-text2 {
+    font-size: 26px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  .order-now-white {
+    margin: 0 auto;
+  }
+  .burger-wrapper-item,
+  .burger-wrapper-item01 {
+    text-align: center;
+  }
+  .burger2 {
+    z-index: -1;
+  }
+  .mashroom2 {
+    z-index: -1;
+  }
+  .burger-section-2 {
+    z-index: 2;
+  }
+  .statistic-wrapper {
+    flex-direction: column;
+    gap: 60px;
+  }
+  .statistic-item {
+    width: 400px;
+    height: 400px;
+  }
+  .statistic-section p:first-of-type {
+    font-size: 23px;
+  }
+  .burger3,
+  .leaf3 {
+    z-index: -1;
+  }
+  .Barry-Henderson-text-wrapper,
+  .Barry-Henderson-section h3 {
+    /* text-align: left; */
+  }
+  .Barry-Henderson-section p {
+    font-size: 26px;
+    line-height: 43px;
+  }
+
+  .newsletter-wrapper h1 {
+    font-size: 58px;
+  }
+  .newsletter-wrapper p {
+    font-size: 20px;
+  }
+  .subscribe {
+    right: -18%;
+  }
+  .z-index1 {
+    z-index: 1;
+  }
+  .z-index0 {
+    z-index: -1;
+  }
+  .onion4 {
+    right: -2%;
+  }
+  .chilly5 {
+    bottom: 1%;
+  }
+
+  .fries4 {
+    left: -5%;
+  }
+}
+@media (max-width: 576px) {
+  body {
+    width: 100vw;
+  }
+  .row {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .col-50,
+  .col-30 {
+    width: 100%;
+  }
+}
