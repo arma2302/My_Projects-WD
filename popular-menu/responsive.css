@@ -14,8 +14,37 @@
 }
 
 @media (max-width: 991px) {
+  nav a {
+    font-size: 17px;
+  }
+
   .card {
     width: 33%;
+  }
+  .hero-wrapper h1 {
+    font-size: 64px;
+  }
+  .hero-wrapper p {
+    font-size: 16px;
+  }
+  button {
+    width: 269px;
+    font-size: 23px;
+  }
+  .menu p {
+    font-size: 18px;
+  }
+  .Barry-Henderson-section p {
+    font-size: 25px;
+  }
+  .subscribe {
+    right: 13%;
+  }
+  .links-container li:first-of-type {
+    font-size: 28px;
+  }
+  .links-container li {
+    font-size: 19px;
   }
 }
 
@@ -66,6 +95,31 @@
   .statistic-section p:first-of-type {
     font-size: 24px;
   }
+  .Barry-Henderson-section p {
+    font-size: 23px;
+  }
+  .subscribe {
+    bottom: 0;
+    right: 10%;
+  }
+  .flex-direction {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+  }
+  .links-container {
+    align-items: start;
+    justify-content: space-between;
+  }
+  .gap-50 {
+    gap: 50px;
+  }
+  .col-40 {
+    width: 100%;
+  }
+  .col-60 {
+    width: 100%;
+  }
 }
 
 @media (max-width: 575.98px) {
@@ -111,6 +165,55 @@
   .statistic-section p:first-of-type {
     font-size: 13px;
   }
+  input {
+    width: 378px;
+  }
+  .subscribe {
+    bottom: 0;
+    right: -1%;
+    font-size: 16px;
+
+    width: 136px;
+  }
+  ::placeholder {
+    font-size: 16px;
+  }
+  .newsletter-wrapper h1 {
+    font-size: 59px;
+  }
+  .newsletter-wrapper p {
+    font-size: 16px;
+  }
+  .col-40,
+  .col-60 {
+    width: 100%;
+  }
+  .info-wrapper p {
+    font-size: 15px;
+  }
+  .gap-50 {
+    gap: 50px;
+  }
+  .links-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-wrap: wrap;
+    gap: 48px;
+  }
+  .links-container li {
+    font-size: 18px;
+  }
+  .Barry-Henderson-section p {
+    font-size: 17px;
+  }
+  .image-wrapper2 {
+    height: 280px;
+    width: 280px;
+  }
+  .hero-wrapper {
+    margin-bottom: 20px;
+  }
 }
 @media (min-width: 1399.98px) {
   .card-img {
@@ -119,5 +222,13 @@
   }
   .body-text {
     font-size: 21px;
+  }
+  .subscribe {
+    bottom: 0;
+    right: 32%;
+  }
+  .statistic-wrapper {
+    justify-content: center;
+    gap: 30px;
   }
 }

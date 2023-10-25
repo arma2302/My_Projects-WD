@@ -232,12 +232,18 @@ nav a {
   width: 300px;
   border-radius: 50%;
   background-image: url(images/card-img.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .image-wrapper2 {
   height: 300px;
   width: 300px;
   border-radius: 50%;
   background-image: url(images/card2-img.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 /* <!-- statastic section styles--> */
 .statistic-section {
