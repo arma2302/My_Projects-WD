@@ -1,4 +1,218 @@
-@media (max-width: 992px) {
+@media (max-width: 768px) {
+  .col-50,
+  .col-30 {
+    width: 100%;
+  }
+
+  .container {
+    padding: 50px;
+  }
+  /* .section1 {
+    padding: 40px;
+  } */
+  nav a {
+    font-size: 16px;
+    padding: 8px;
+  }
+  .row {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .w-50 {
+    width: 100%;
+  }
+  .banner-box {
+    margin-top: 48px;
+    text-align: center;
+    padding: 100px;
+  }
+  .title {
+    font-size: 59px;
+    line-height: 66px;
+  }
+  .paragraph {
+    font-size: 26px;
+    margin: 80px 0;
+  }
+  .sec-text {
+    font-size: 19px;
+  }
+  .burger-section,
+  .burger-section-2 {
+    padding: 10px;
+  }
+  .card-wrapper {
+    flex-wrap: wrap;
+    row-gap: 100px;
+  }
+  .card {
+    width: 49%;
+  }
+  .burger-wrapper {
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+  }
+  .burger-body-text,
+  .burger-body-text2 {
+    font-size: 26px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  .order-now-white {
+    margin: 0 auto;
+  }
+  .burger-wrapper-item,
+  .burger-wrapper-item01 {
+    text-align: center;
+  }
+  .burger2 {
+    z-index: -1;
+  }
+  .mashroom2 {
+    z-index: -1;
+  }
+  .burger-section-2 {
+    z-index: 2;
+  }
+  .statistic-wrapper {
+    flex-direction: column;
+    gap: 60px;
+  }
+  .statistic-item {
+    width: 400px;
+    height: 400px;
+  }
+  .statistic-section p:first-of-type {
+    font-size: 23px;
+  }
+  .burger3,
+  .leaf3 {
+    z-index: -1;
+  }
+  .Barry-Henderson-text-wrapper {
+    /* text-align: left; */
+    padding: 10px;
+  }
+  .Barry-Henderson-section p {
+    font-size: 26px;
+    line-height: 43px;
+  }
+  .newsletter-wrapper {
+    padding: 10px;
+  }
+
+  .newsletter-wrapper h1 {
+    font-size: 58px;
+  }
+  .newsletter-wrapper p {
+    font-size: 20px;
+  }
+  .subscribe {
+    right: 1%;
+  }
+  .z-index1 {
+    z-index: 1;
+  }
+  .z-index0 {
+    z-index: -1;
+  }
+  .onion4 {
+    right: -2%;
+  }
+  .chilly5 {
+    bottom: 1%;
+  }
+
+  .fries4 {
+    left: -5%;
+  }
+}
+@media (max-width: 576px) {
+  body {
+    width: 100vw;
+  }
+  .row {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .col-50,
+  .col-30 {
+    width: 100%;
+  }
+  .burger-wrapper-item:first-of-type {
+    width: 300px;
+    height: 300px;
+  }
+  .statistic-item {
+    width: 300px;
+    height: 300px;
+  }
+  input {
+    width: 100%;
+  }
+  nav {
+    display: none;
+  }
+  .banner-box {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+  }
+  .title {
+    font-size: 40px;
+    line-height: 46px;
+  }
+  .paragraph {
+    font-size: 19px;
+    margin: 32px 0;
+  }
+  .sec-text {
+    font-size: 13px;
+  }
+  .burger-section,
+  .burger-section-2 {
+    padding: 0px;
+  }
+  .burger-title,
+  .burger-title2 {
+    font-size: 59px;
+  }
+  .burger-body-text,
+  .burger-body-text2 {
+    font-size: 20px;
+  }
+  .statistic-section p:first-of-type {
+    font-size: 13px;
+  }
+  .Barry-Henderson-text-wrapper {
+    padding: 70px;
+  }
+  .Barry-Henderson-section p {
+    font-size: 12px;
+    line-height: 26px;
+  }
+
+  .Barry-Henderson-section h3 {
+    font-size: 25px;
+  }
+
+  .newsletter-wrapper {
+    padding: 21px;
+  }
+  .subscribe {
+    right: -7%;
+    width: 175px;
+  }
+
+  .links-container li:first-of-type {
+    font-size: 26px;
+  }
+  .links-container li {
+    font-size: 15px;
+  }
+}
+@media (min-width: 992px) {
   /* .container {
     max-width: 940px;
   } */
@@ -157,139 +371,15 @@
     justify-content: space-between;
   }
 }
-
-@media (max-width: 768px) {
-  .col-50,
+@media (min-width: 1300px) {
   .col-30 {
-    width: 100%;
+    width: 30%;
+  }
+  .footer-top {
+    flex-direction: row;
   }
 
-  .container {
-    padding: 50px;
-  }
-  /* .section1 {
-    padding: 40px;
-  } */
-  nav a {
-    font-size: 20px;
-    padding: 8px;
-  }
-  .row {
-    flex-direction: column;
-    justify-content: center;
-  }
-  .w-50 {
-    width: 100%;
-  }
-  .banner-box {
-    margin-top: 48px;
-    text-align: center;
-    padding: 100px;
-  }
-  .title {
-    font-size: 69px;
-  }
-  .paragraph {
-    font-size: 26px;
-    margin: 80px 0;
-  }
-  .sec-text {
-    font-size: 24px;
-  }
-  .card-wrapper {
-    flex-wrap: wrap;
-    row-gap: 100px;
-  }
-  .card {
-    width: 49%;
-  }
   .burger-wrapper {
-    flex-direction: column;
-    justify-content: center;
-    gap: 50px;
-  }
-  .burger-body-text,
-  .burger-body-text2 {
-    font-size: 26px;
-    margin-bottom: 50px;
-    text-align: center;
-  }
-  .order-now-white {
-    margin: 0 auto;
-  }
-  .burger-wrapper-item,
-  .burger-wrapper-item01 {
-    text-align: center;
-  }
-  .burger2 {
-    z-index: -1;
-  }
-  .mashroom2 {
-    z-index: -1;
-  }
-  .burger-section-2 {
-    z-index: 2;
-  }
-  .statistic-wrapper {
-    flex-direction: column;
-    gap: 60px;
-  }
-  .statistic-item {
-    width: 400px;
-    height: 400px;
-  }
-  .statistic-section p:first-of-type {
-    font-size: 23px;
-  }
-  .burger3,
-  .leaf3 {
-    z-index: -1;
-  }
-  .Barry-Henderson-text-wrapper,
-  .Barry-Henderson-section h3 {
-    /* text-align: left; */
-  }
-  .Barry-Henderson-section p {
-    font-size: 26px;
-    line-height: 43px;
-  }
-
-  .newsletter-wrapper h1 {
-    font-size: 58px;
-  }
-  .newsletter-wrapper p {
-    font-size: 20px;
-  }
-  .subscribe {
-    right: -18%;
-  }
-  .z-index1 {
-    z-index: 1;
-  }
-  .z-index0 {
-    z-index: -1;
-  }
-  .onion4 {
-    right: -2%;
-  }
-  .chilly5 {
-    bottom: 1%;
-  }
-
-  .fries4 {
-    left: -5%;
-  }
-}
-@media (max-width: 576px) {
-  body {
-    width: 100vw;
-  }
-  .row {
-    flex-direction: column;
-    justify-content: center;
-  }
-  .col-50,
-  .col-30 {
-    width: 100%;
+    flex-direction: row;
   }
 }

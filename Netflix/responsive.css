@@ -7,7 +7,10 @@
     padding: 18px;
   }
   .banner-section h1 {
-    font-size: 34px;
+    font-size: 25px;
+  }
+  header {
+    height: auto;
   }
   .main {
     margin-top: 30px;

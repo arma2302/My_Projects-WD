@@ -1,9 +1,284 @@
+@media (max-width: 991px) {
+  .main-banner h1 {
+    font-size: 34px;
+  }
+  .main {
+    flex-direction: column;
+  }
+  .check-availiblity {
+    height: auto;
+  }
+  nav a {
+    font-size: 14px;
+  }
+  .col-40,
+  .col-60 {
+    width: 100%;
+  }
+  .hero-banner {
+    flex-direction: column;
+  }
+  .col-30 {
+    width: 48%;
+  }
+  .cat-items {
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 20px;
+  }
+  .gap-60 {
+    gap: 17px;
+  }
+  .cat-card-text {
+    font-size: 11px;
+  }
+  .table-imgs-wrapper img {
+    width: 200px;
+    height: 200px;
+  }
+  .img-wrapper img {
+    width: 350px;
+    height: 302px;
+  }
+  .sec-title {
+    font-size: 33px;
+  }
+
+  .the-chef {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .our-story-text2 {
+    text-align: center;
+  }
+  .single-review-box {
+    width: 48%;
+    flex-direction: column;
+  }
+
+  .review-box {
+    justify-content: center;
+    align-items: center;
+  }
+  .inputs input,
+  textarea {
+    width: 100%;
+  }
+  .inputs {
+    padding: 40px;
+  }
+  .send-msg {
+    padding: 0 20px;
+  }
+  .footer-content {
+    flex-direction: column;
+  }
+  .follow-us {
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  .social-container {
+    flex-direction: row;
+  }
+  .footer-title,
+  .footer-input {
+    display: none;
+  }
+  .links-wrapper li {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .main-banner h1 {
+    font-size: 34px;
+  }
+  .main {
+    flex-direction: column;
+  }
+  .check-availiblity {
+    height: auto;
+  }
+  nav a {
+    font-size: 14px;
+  }
+  .col-40,
+  .col-60 {
+    width: 100%;
+  }
+  .hero-banner {
+    flex-direction: column;
+  }
+  .col-30 {
+    width: 48%;
+  }
+  .cat-items {
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 20px;
+  }
+  .gap-60 {
+    gap: 17px;
+  }
+  .cat-card-text {
+    font-size: 11px;
+  }
+  .table-imgs-wrapper img {
+    width: 200px;
+    height: 200px;
+  }
+  .img-wrapper img {
+    width: 350px;
+    height: 302px;
+  }
+  .sec-title {
+    font-size: 33px;
+  }
+
+  .the-chef {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .our-story-text2 {
+    text-align: center;
+  }
+  .single-review-box {
+    width: 48%;
+    flex-direction: column;
+  }
+
+  .review-box {
+    justify-content: center;
+    align-items: center;
+  }
+  .inputs input,
+  textarea {
+    width: 100%;
+  }
+  .inputs {
+    padding: 40px;
+  }
+  .send-msg {
+    padding: 0 20px;
+  }
+  .footer-content {
+    flex-direction: column;
+  }
+  .follow-us {
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  .social-container {
+    flex-direction: row;
+  }
+  .footer-title,
+  .footer-input {
+    display: none;
+  }
+  .links-wrapper li {
+    font-size: 20px;
+  }
+}
+
 @media (max-width: 576px) {
   * {
     margin: 0;
     padding: 0;
   }
   nav {
+    display: none;
+  }
+  .row {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .col-40,
+  .col-60,
+  .col-50,
+  .col-30 {
+    width: 100%;
+  }
+  .main-banner h1 {
+    font-size: 34px;
+  }
+  .main {
+    flex-direction: column;
+  }
+  .links-wrapper li {
+    font-size: 21px;
+  }
+  .main-banner h3 {
+    font-size: 18px;
+  }
+  .main-banner p,
+  .banner {
+    text-align: center;
+  }
+  .check-availiblity {
+    margin-top: 100px;
+    height: auto;
+  }
+  .bg-image {
+    margin-top: 12px;
+  }
+
+  .sec-title {
+    font-size: 42px;
+  }
+  .table-imgs-wrapper img {
+    width: 100px;
+    height: 100px;
+  }
+  .img-wrapper img {
+    width: 314px;
+    height: 302px;
+  }
+  .the-chef-wrapper {
+    text-align: center;
+  }
+  .gap-63 {
+    gap: 63px;
+  }
+  .single-review-box {
+    width: 100%;
+    flex-direction: column;
+  }
+  .inputs {
+    padding: 20px;
+  }
+  .inputs input,
+  textarea {
+    width: 100%;
+  }
+  .send-msg {
+    padding: 0 13px;
+  }
+  .links-wrapper {
+    justify-content: flex-start;
+    align-items: start;
+  }
+  .links-wrapper li:first-of-type {
+    font-size: 32px;
+  }
+  .footer-title {
+    font-size: 34px;
+    text-align: left;
+    margin-top: 20px;
+  }
+  .links-wrapper li {
+    font-size: 19px;
+  }
+  .follow-us {
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  .social-container {
+    flex-direction: row;
+  }
+  .footer-title,
+  .footer-input {
     display: none;
   }
 }

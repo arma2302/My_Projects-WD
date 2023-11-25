@@ -1,0 +1,384 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&family=Open+Sans:wght@400;500&family=Roboto+Slab&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+body {
+  background-color: #f0ebfa;
+}
+img {
+  width: 100%;
+}
+button {
+  border: none;
+}
+/* Common Css Classes which can be used many times */
+
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+  padding: 50px 50px;
+}
+.row {
+  display: flex;
+}
+.flex-column {
+  flex-direction: column;
+}
+.text-align-center {
+  text-align: center;
+}
+.align-center {
+  align-items: center;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+.justify-center {
+  justify-content: center;
+}
+.col-30 {
+  width: 30%;
+}
+.col-40 {
+  width: 40%;
+}
+.col-50 {
+  width: 50%;
+}
+.col-60 {
+  width: 60%;
+}
+.pd-30 {
+  padding: 30px;
+}
+.pd-50 {
+  padding: 50px;
+}
+.pd-100 {
+  padding: 100px;
+}
+.mt {
+  margin-top: 100px;
+}
+.relative {
+  position: relative;
+}
+.absolute {
+  position: absolute;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.sec-title {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 40px;
+  color: #35414b;
+}
+/* Header styles */
+.navbar {
+  gap: 50px;
+}
+.navbar a {
+  text-decoration: none;
+  padding: 10px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #35414b;
+}
+.get-started {
+  background: #d5c9fd;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+  color: #794cff;
+
+  padding: 15px 20px;
+}
+
+/* Manage the Team section styles */
+.text-wrapper .title {
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 72px;
+  color: #35414b;
+}
+
+.text-wrapper p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #4e5a65;
+}
+.text-wrapper {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.input-box {
+  display: flex;
+}
+.input-box input {
+  background: #ffffff;
+  border: 1px solid #e1e5ea;
+  border-radius: 4px 0px 0px 4px;
+  padding: 20px 30px;
+}
+.try-it {
+  background: #794cff;
+  border: 1px solid #794cff;
+  border-radius: 0px 4px 4px 0px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  color: #ffffff;
+  padding: 15px 20px;
+}
+/* <!-- Trusted Teams Section starts --> */
+#trusted p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+  color: #4e5a65;
+  margin-bottom: 30px;
+}
+#trusted span {
+  font-weight: 500;
+  color: #35414b;
+}
+.single-text-item h3 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 18px;
+  color: #35414b;
+  margin-bottom: 10px;
+}
+.single-text-item p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #4e5a65;
+}
+.single-text-item {
+  padding: 20px 0;
+}
+.single-text-item:hover {
+  background-color: #f6f3fc;
+}
+.hover-line {
+  position: absolute;
+  width: 8px;
+  height: 100px;
+  left: -16px;
+  top: 5px;
+  background: #794cff;
+  display: none;
+}
+.single-text-item:hover .hover-line {
+  display: block;
+}
+/* Make your work easier section styels */
+.make-your-work-single-item h3 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 18px;
+  color: #35414b;
+}
+.make-your-work-single-item p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #4e5a65;
+}
+.icon-box {
+  height: 64px;
+  width: 64px;
+}
+.make-your-work-single-item {
+  gap: 20px;
+}
+.section-wrapper {
+  row-gap: 80px;
+  margin-top: 50px;
+}
+#how-we-work .text-wrapper {
+  align-items: start;
+  gap: 30px;
+}
+/* why customer love working with us section styles */
+.customer-profile-wrapper {
+  justify-content: space-around;
+}
+.single-profile {
+  gap: 20px;
+}
+.upper-line-hover {
+  top: -50%;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background-color: #35414b;
+}
+/* employee box styles */
+.employee-text-wrapper p {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 48px;
+  color: #ffffff;
+}
+.buttons-box {
+  gap: 20px;
+}
+.buttons-box button {
+  border-radius: 10px;
+}
+.employee {
+  background: #796eff;
+  border-radius: 16px;
+}
+/* Footer styles */
+footer {
+  background-color: #1d2830;
+}
+.single-links-wrapper ul li {
+  list-style-type: none;
+  font-weight: 400;
+  font-size: 16px;
+  /* line-height: 16px; */
+  font-feature-settings: "salt" on, "liga" off;
+  color: #ffffff;
+  padding: 10px;
+}
+.single-links-wrapper ul li:first-of-type {
+  font-weight: 600;
+  font-size: 16px;
+  font-feature-settings: "salt" on, "liga" off;
+}
+.footer-bottom p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+
+  font-feature-settings: "salt" on, "liga" off;
+
+  color: #d9dbe1;
+}
+.app-icon img {
+  height: 32px;
+  width: 32px;
+}
+.socials {
+  gap: 20px;
+}
+.footer-bottom {
+  margin-top: 50px;
+  padding-top: 20px;
+  border-top: 1px solid #ffff;
+}
+/* !!!---------------Responsive------------------!!! */
+@media (max-width: 575.98px) {
+  nav,
+  .buttons {
+    display: none;
+  }
+  .row {
+    flex-direction: column;
+  }
+  .col-40,
+  .col-50,
+  .col-60,
+  .col-30 {
+    width: 100%;
+  }
+  .start {
+    align-items: start;
+  }
+  .text-wrapper .title {
+    font-size: 47px;
+    line-height: 60px;
+  }
+  .input-box {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .trusted-teams-wrapper {
+    flex-direction: row;
+  }
+  .timeline-wrapper {
+    row-gap: 50px;
+  }
+  .single-text-item {
+    text-align: center;
+  }
+  .make-your-work-single-item {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .how-we-work-wrapper {
+    flex-direction: column-reverse;
+    margin-top: 50px;
+    row-gap: 80px;
+  }
+  #how-we-work .text-wrapper {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .customer-profile-wrapper {
+    row-gap: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  #employee-box {
+    background: #794cff;
+  }
+  .employee {
+    background: transparent;
+    border-radius: 0;
+  }
+  .employee-text-wrapper {
+    gap: 50px;
+  }
+  .employee-text-wrapper p {
+    font-size: 26px;
+    text-align: center;
+  }
+  .links-conteiner {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: start;
+    row-gap: 50px;
+  }
+  .single-links-wrapper {
+    width: 48%;
+  }
+  .single-links-wrapper:last-of-type {
+    width: 100%;
+  }
+  .single-links-wrapper img {
+  }
+  .footer-bottom {
+    align-items: start;
+  }
+  .socials {
+    flex-direction: row;
+  }
+  .footer-bottom p {
+    text-align: left;
+  }
+}

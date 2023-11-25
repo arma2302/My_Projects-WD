@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  background-color: #0f235a;
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  justify-content: space-between;
+}
+.bcci-logo {
+  height: 40px;
+  width: 40px;
+  margin-left: 40px;
+  margin-right: 25px;
+}
+.anchor {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 500;
+  text-decoration: none;
+  margin-right: 15px;
+}
+.nav {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+.logo-header {
+  display: flex;
+  align-items: center;
+}
