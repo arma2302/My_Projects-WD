@@ -8,22 +8,125 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&family=Montserrat&family=Open+Sans:wght@400;500&family=Roboto+Slab&display=swap" rel="stylesheet" />
+    <!-- swiper -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
   </head>
   <body>
-    <header class="header">
-      <div class="logo-header">
-        <img src="../BCCI/images/bcci-logo.svg" alt="" class="bcci-logo" />
-        <a href="" class="anchor">International</a>
-        <a href="" class="anchor">Domestic</a>
+    <header>
+      <div class="top-header">
+        <div class="logo-header">
+          <img src="images/bcci-logo.svg" alt="" class="bcci-logo" />
+          <a href="" class="anchor">International</a>
+          <a href="" class="anchor">Domestic</a>
+        </div>
+        <nav class="nav">
+          <img src="images/search-icon.svg" alt="" />
+          <img src="images/wcw.png" alt="" />
+          <img src="images/ipl-logo.svg" alt="" />
+          <img src="images/wpl-logo.svg" alt="" />
+          <img src="images/hamburger-menu.svg" alt="" />
+          <button>EN</button>
+        </nav>
       </div>
-      <nav class="nav">
-        <img src="../BCCI/images/search-icon.svg" alt="" />
-        <img src="../BCCI/images/wcw.png" alt="" />
-        <img src="../BCCI/images/ipl-logo.svg" alt="" />
-        <img src="../BCCI/images/wpl-logo.svg" alt="" />
-        <img src="../BCCI/images/hamburger-menu.svg" alt="" />
-        <button>EN</button>
-      </nav>
-
+      <div class="middle-header">
+        <a href="" class="men">Men </a>
+        <a href="" class="women">Women |</a>
+        <a href="" class="videos">videos |</a>
+        <a href="" class="fixtures">fixtures |</a>
+        <a href="" class="results">results |</a>
+        <a href="" class="news">news |</a>
+        <a href="" class="players">players |</a>
+        <a href="" class="rankings">rankings |</a>
+        <a href="" class="stats">stats |</a>
+        <a href="" class="series-tornaments">series-tornaments |</a>
+        <a href="" class="archive">archive</a>
+      </div>
+      <div class="bottom-header">
+        <a href="">quick links</a>
+        <a href="">Domestic 2023-2024 shcedule ></a>
+        <a href="">international results ></a>
+        <a href="">bcci documentation ></a>
+        <a href="">tender and RFP ></a>
+        <a href="">jobs</a>
+      </div>
+    </header>
+    <!-- Hero section -->
+    <section class="hero">
+      <div class="container">
+        <!-- <div class="slider-wrapper">
+          <div class="single-slide">
+            <img src="images/hero-bg.jpg" alt="" />
+          </div>
+        </div> -->
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide"><img src="images/hero-bg.jpg" alt="" /></div>
+            <div class="swiper-slide"><img src="images/hero-bg2.jpg" alt="" /></div>
+            <div class="swiper-slide"><img src="images/hero-bg3.jpg" alt="" /></div>
+            ...
+          </div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+    <!-- Matches -->
+    <section class="matches">
+      <div class="container">
+        <div class="heading-content">
+          <h2>Matches</h2>
+          <div class="matches-links">
+            <a href="">Fixtures</a>
+            <a href="">Results</a>
+          </div>
+        </div>
+        <!-- slider -->
+        <section class="section slider-section">
+          <div class="container slider-column">
+            <div class="swiper swiper-slider">
+              <div class="swiper-wrapper">
+                <!-- 1 -->
+                <div class="swiper-slide">
+                  <div class="match-card"></div>
+                </div>
+                <!-- 2 -->
+                <div class="swiper-slide">
+                  <div class="match-card"></div>
+                </div>
+                <!-- 3 -->
+                <div class="swiper-slide">
+                  <div class="match-card"></div>
+                </div>
+                <!-- 4 -->
+                <div class="swiper-slide">
+                  <div class="match-card"></div>
+                </div>
+                <!-- 5 -->
+                <div class="swiper-slide">
+                  <div class="match-card"></div>
+                </div>
+                <!-- 6 -->
+                <div class="swiper-slide">
+                  <div class="match-card"></div>
+                </div>
+                <!-- <img class="swiper-slide" src="https://source.unsplash.com/1920x1280/?nature" alt="Swiper" />
+                <img class="swiper-slide" src="https://source.unsplash.com/1920x1280/?people" alt="Swiper" />
+                <img class="swiper-slide" src="https://source.unsplash.com/1920x1280/?flower" alt="Swiper" />
+                <img class="swiper-slide" src="https://source.unsplash.com/1920x1280/?travel" alt="Swiper" />
+                <img class="swiper-slide" src="https://source.unsplash.com/1920x1280/?fruits" alt="Swiper" /> -->
+              </div>
+              <!-- <span class="swiper-pagination"></span> -->
+              <span class="swiper-button-prev"></span>
+              <span class="swiper-button-next"></span>
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
+    <!-- swiper -->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
   </body>
 </html>

@@ -5,14 +5,23 @@
   box-sizing: border-box;
   text-transform: capitalize;
 }
+body {
+  background-color: #d9d9d9;
+}
 img {
   width: 100%;
+}
+.bg-light {
+  background-color: #fff;
+}
+.gap-20 {
+  gap: 20px;
 }
 /* common css classes which can be used multiple times  */
 .container {
   width: 90%;
   margin: 0 auto;
-  padding: 10px;
+  /* padding: 10px; */
 }
 .row {
   display: flex;
@@ -153,8 +162,8 @@ header input {
   justify-content: space-between;
 }
 .products-imgs img {
-  width: 70px;
-  height: 137px;
+  width: 100%;
+  height: 100px;
 }
 .products-list-wrapper {
   background-color: #fff;
@@ -179,12 +188,14 @@ header input {
   color: #007185;
   margin-top: 20px;
   align-self: flex-start;
-  padding: 11px;
+  padding-bottom: 11px;
 }
 .wrapper-products {
   justify-content: space-between;
   align-items: center;
-  gap: 20px;
+  row-gap: 20px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
 }
 .products {
   top: 50%;
@@ -192,5 +203,12 @@ header input {
   width: 100%;
 }
 .products-list-wrapper {
+  padding: 20px;
+}
+/* Third Swction styles */
+.third-section {
+  margin-top: 502px;
+}
+.slider-third-sec-wrapper > div {
   padding: 20px;
 }
