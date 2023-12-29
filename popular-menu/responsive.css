@@ -100,7 +100,7 @@
   }
   .subscribe {
     bottom: 0;
-    right: 10%;
+    right: 3%;
   }
   .flex-direction {
     flex-direction: column;
@@ -170,7 +170,7 @@
   }
   .subscribe {
     bottom: 0;
-    right: -1%;
+    right: 11%;
     font-size: 16px;
 
     width: 136px;
@@ -225,7 +225,7 @@
   }
   .subscribe {
     bottom: 0;
-    right: 32%;
+    right: 27%;
   }
   .statistic-wrapper {
     justify-content: center;
