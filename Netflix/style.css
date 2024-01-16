@@ -14,6 +14,7 @@
   align-items: center;
   justify-content: center;
   overflow: hidden;
+  gap: 53px;
 }
 .padding-100 {
   padding: 100px;
@@ -64,7 +65,7 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 .banner-section p {
   font-size: 1.5rem;
@@ -171,7 +172,7 @@ select {
   align-items: center;
   border: 1px groove gray;
   position: absolute;
-  bottom: 0;
+  bottom: 9px;
   left: 18%;
   z-index: 22;
 }
@@ -199,9 +200,9 @@ img {
 .video-wrapper2 video {
   position: absolute;
   overflow: hidden;
-  top: -352px;
+  top: -321px;
   left: 17%;
-  width: 331px;
+  width: 297px;
   z-index: 0;
 }
 .relative {
@@ -212,14 +213,26 @@ img {
   text-align: center;
 }
 .accordian-item {
-  display: flex;
-  justify-content: space-between;
-  padding: 20px 20px;
-  background-color: #4d4d4db6;
   color: #fff;
-  align-items: center;
   margin-bottom: 10px;
   text-transform: capitalize;
+}
+.single-item {
+  padding: 20px 20px;
+  background-color: #4d4d4db6;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.para {
+  display: none;
+  font-size: 20px;
+
+  padding: 20px 10px;
+  background-color: #343434b6;
+}
+i {
+  font-size: 40px;
 }
 .text-content2 {
   font-size: 1.5rem;
@@ -272,4 +285,44 @@ img {
   color: #ffff;
   margin-top: 10px;
   text-transform: capitalize;
+}
+footer a {
+  text-decoration: none;
+  border: none;
+}
+/* css for modes */
+.dropdown {
+  width: 150px;
+  background-color: #fff;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: #222;
+  padding: 10px 20px;
+  border: 1px solid #222;
+}
+.dropdown-menu {
+  display: flex;
+  flex-direction: column;
+}
+.menu {
+  padding: 10px;
+  border: 1px solid #222;
+}
+.red:hover {
+  background-color: #bc4749;
+}
+.light:hover {
+  background-color: #c5c5c5;
+}
+.sky:hover {
+  background-color: #98c1d9;
+}
+.yellow:hover {
+  background-color: #f2cc8f;
+}
+.icon {
+  cursor: pointer;
+  transition: 0.5s ease;
 }
