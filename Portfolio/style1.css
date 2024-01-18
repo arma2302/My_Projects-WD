@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-transform: capitalize;
+}
+body {
+  background-image: url(images/bg.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* height: 100vh; */
+  background-attachment: fixed;
+  position: relative;
+  z-index: 11;
+}
+/* common classes css which can be used multiple times */
+.container {
+  width: 700px;
+  margin: 0 auto;
+  position: absolute;
+  top: 0;
+  left: 299px;
+  color: #fff;
+  text-align: center;
+}
+.row {
+  display: flex;
+}
+.justify-center {
+  justify-content: center;
+}
+.align-items-center {
+  align-items: center;
+}
+/* aside bar styles starts here */
+.aside-bar {
+  background-color: #a43f49;
+  width: 260px;
+  /* height: 100vh; */
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  flex-direction: column;
+  /* padding: 10px; */
+}
+.profile-img {
+  background-image: url(images/profile.jfif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 200px;
+  margin: 0 auto;
+  height: 200px;
+  border-radius: 50%;
+  border: 2px solid #222;
+}
+.name {
+  text-align: center;
+  color: aliceblue;
+  padding: 12px;
+}
+.name p {
+  font-size: 13px;
+  margin-top: 10px;
+}
+ul li {
+  list-style-type: none;
+  border-top: 2px solid #fff;
+  text-align: center;
+  padding: 20px;
+}
+ul {
+  border-bottom: 2px solid #fff;
+}
+nav {
+  margin-top: 50px;
+}
+nav a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #fff;
+  padding: 10px 25px;
+  font-size: 20px;
+}
+nav a:active nav,
+a:hover {
+  background-color: #fff;
+  color: #a43f49;
+}
+.links-wrapper {
+  padding: 20px;
+  gap: 5px;
+}
+.icon {
+  background-color: #22222222;
+  padding: 10px;
+}
+i {
+  font-size: 15px;
+}
