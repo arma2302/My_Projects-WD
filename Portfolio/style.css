@@ -11,6 +11,7 @@ body {
 }
 img {
   width: 100%;
+  height: auto;
 }
 section {
   height: 100vh;
@@ -111,6 +112,10 @@ nav a {
   padding: 15px 20px;
   border-radius: 10px;
 }
+/* projects section */
+.main-projects-wrapper {
+  margin-top: 20px;
+}
 .row {
   display: flex;
   gap: 20px;
@@ -130,7 +135,7 @@ nav a {
   gap: 20px;
   /* box-shadow: rgb(117 180 255 / 27%) 5px 5px 12px 0px; */
   overflow: hidden;
-  transition: 0.5s linear
+  transition: 0.5s linear;
 }
 .project-body {
   color: #807d7d;
@@ -161,4 +166,98 @@ nav a {
 .single-project:hover {
   box-shadow: rgb(117 180 255 / 27%) 5px 5px 12px 0px;
   transform: scale(1.1);
+}
+/* what i know section styles */
+.what-i-know-wrapper {
+  margin-top: 20px;
+}
+.col-50 {
+  width: 50%;
+}
+.lang-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  /* width: 100%; */
+  gap: 20px;
+}
+.lang {
+  background-color: #14131a;
+  border-radius: 12px;
+  padding: 20px;
+}
+.lang-wrapper a {
+  display: inline-block;
+  text-decoration: none;
+  color: #807d7d;
+  padding: 10px;
+  border-radius: 12px;
+  border: 1px solid green;
+  margin: 10px;
+}
+.subtitle {
+  color: #807d7d;
+  padding: 10px;
+}
+.text-lang {
+  color: #807d7d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  text-align: center;
+}
+.lang-wrapper a:nth-of-type(2) {
+  border-color: rgb(107, 8, 81);
+}
+.lang-wrapper a:nth-of-type(3) {
+  border-color: rgb(107, 8, 8);
+}
+.lang-wrapper a:nth-of-type(4) {
+  border-color: rgb(79, 8, 107);
+}
+.lang-wrapper a:nth-of-type(6) {
+  border-color: rgb(25, 8, 107);
+}
+.col-20 {
+  width: 20%;
+}
+/* task section styles  */
+.task-wrapper {
+  background-image: url(images/polygon-scatter-haikei-bg.svg);
+  /* background-image: url(https://hdqwalls.com/wallpapers/abstract-vector-graphic-design-hf.jpg); */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.task-item-wrapper {
+  /* height: 300px; */
+  backdrop-filter: blur(6px);
+  padding: 40px;
+}
+.single-task {
+  color: #888789;
+  margin-bottom: 50px;
+  height: 300px;
+}
+
+.just-center {
+  justify-content: center;
+}
+.align-center {
+  align-items: center;
+}
+.task-img {
+  box-shadow: rgb(255 253 253) 1px 1px 20px 3px;
+  transition: 0.3s ease;
+}
+.task-name {
+  font-size: 30px;
+  color: #fff;
+  margin-bottom: 20px;
+
+  text-shadow: 0px 0px 6px rgba(255, 255, 255, 0.7);
+}
+.task-img:hover {
+  opacity: 0.5;
 }
